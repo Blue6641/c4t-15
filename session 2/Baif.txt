@@ -1,0 +1,30 @@
+print ---> prioritize "," ---> auto spacing, work with combo of int and str
+
+"=" ---> assign value
+
+Difference between ('') and (""): 
+
+Name your variable with the a clear description
+Name = str("Voz")
+
+
+snake_case   : nguyen_xuan_cuong
+camelCase    : nguyenXuanCuong
+PascalCase   : NguyenXuanCuong
+
+DRY: Don't Repeat Yourself
+
+range(x)      ---> 0 -> x-1
+
+range(x, y)   ---> x -> y-1
+
+range(x, y, z)---> x -> x+z -> x+2z -> ...
+  => x: start
+     (y: stop)
+     z: step
+
+i is interators
+i runs
+
+
+"_" --> unused variable
