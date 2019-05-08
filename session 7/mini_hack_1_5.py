@@ -27,10 +27,10 @@
 import random
 score = 0
 while True:
-    a = random.randint(0, 10)
-    b = random.randint(0, 10)
+    a = random.randint(0, 100)
+    b = random.randint(0, 100)
     # c = random.randint(0, 20)
-    d = random.randint(-2, 2)
+    d = random.randint(-10, 10)
     print(a, "+", b,"=", a+b+d)
     answer = str(input("Your Answer(True or False): "))
     if d == 0:
@@ -40,7 +40,8 @@ while True:
             print("Your score is now: ", score)
         else:
             if answer == "False" or answer == "false" or answer == "F" or answer == "f":
-                print ("You lose, btch!")
+                print ("You lose!")
+                print("Your score is: ", score)
                 break
             else:
                 print ("Invalid Answer!")
@@ -52,7 +53,8 @@ while True:
             print("Your score is now: ", score)
         else:
             if answer == "True" or answer == "true" or answer == "T" or answer == "t":    
-                print ("Btch, You Lose!")
+                print ("You Lose!")
+                print("Your score is: ", score)
                 break
             else:
                 print ("Invalid Answer!")

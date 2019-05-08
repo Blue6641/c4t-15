@@ -21,7 +21,6 @@ print(trout)
 # trout["description"] = "Trout has been dubbed the greatest player of our generation. However, after signing the biggest extention contract ever to LAA, he isn't likely to win a WS anytime soon. Unless Shohei Ohtani recovers, that is."
 # key_change = input("Enter a Key: ")
 # value_change = input("Enter new Value: ")
-
 # trout[key_change] = value_change
 # print(trout)
 
